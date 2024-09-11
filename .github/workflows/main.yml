@@ -21,3 +21,7 @@ jobs:
           base_url: "http://netbanking.apisec.ai:8080"
           specification_path: "validBaseurlNetbanking.json"
           #apisecu_token: "U2FsdGVkX1+KKM/gO98RTvrMSX6te9r1+fisGSxR80U="
+      - name: Check files and folders
+        run: |          
+          ls -la
+          pwd
