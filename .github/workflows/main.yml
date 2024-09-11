@@ -25,3 +25,5 @@ jobs:
         run: |          
           ls -la
           pwd
+          ls -la /home/runner/work/_temp/_github_workflow
+          ls -la /github/workflow
